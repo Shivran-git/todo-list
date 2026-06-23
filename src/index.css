@@ -49,7 +49,7 @@ body{
       h-9
       hover:shadow-md hover:shadow-purple-600 
       active:shadow-cyan-500
-      
+      active:scale-95 transition
       
 }
 
@@ -63,6 +63,7 @@ body{
      rounded-md
      hover:shadow-md hover:shadow-purple-600 
       active:shadow-cyan-500
+      active:scale-95 transition
 }
 
 .todo{

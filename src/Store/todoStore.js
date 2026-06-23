@@ -26,6 +26,7 @@ const todoStore = create(persist((set) => ({
                  return {
                ...todo,
              completed : !todo.completed
+             
                             } ;
                        }
                return todo ;
