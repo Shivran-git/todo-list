@@ -13,7 +13,7 @@ body{
 }
 .container{
     @apply 
-    w-100
+    min-w-100
     min-h-100
     bg-gray-950 
     shadow-lg   
@@ -48,9 +48,11 @@ body{
       m-3
       h-9
       hover:shadow-md hover:shadow-purple-600 
-      active:shadow-cyan-500
       active:scale-95 transition
-      
+      transition-colors duration-150
+      active:bg-purple-800
+       active:shadow-cyan-500
+       transition-transform
 }
 
 .btn-state{
@@ -64,18 +66,23 @@ body{
      hover:shadow-md hover:shadow-purple-600 
       active:shadow-cyan-500
       active:scale-95 transition
+       transition-colors duration-150
+      active:bg-purple-800
+       active:shadow-cyan-500
+       transition-transform
 }
 
 .todo{
     @apply
     flex
     justify-between
-    w-90
+    w-full
     items-center
     border
     border-gray-300
     m-2
     p-1
+    
 }
 
 .noTodo{
