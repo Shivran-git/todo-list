@@ -50,7 +50,7 @@ body{
       hover:shadow-md hover:shadow-purple-600 
       active:scale-95 transition
       transition-colors duration-150
-      active:bg-purple-800
+      active:bg-gray-700
        active:shadow-cyan-500
        transition-transform
 }
@@ -65,9 +65,10 @@ body{
      rounded-md
      hover:shadow-md hover:shadow-purple-600 
       active:shadow-cyan-500
-      active:scale-95 transition
-       transition-colors duration-150
-      active:bg-purple-800
+      active:scale-95 
+       transition-colors duration-75
+       transition-shadow duration-75
+      active:bg-gray-700
        active:shadow-cyan-500
        transition-transform
 }
