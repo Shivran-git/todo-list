@@ -7,6 +7,7 @@ import Toast from "../Toast/Toast";
 import { useContext } from "react";
 import { ToastContext } from "../../Context/ToastContext";
 import { VideoContext } from "../../Context/VideoContext";
+import success from "../../assets/success.mp3";
 
 function TodoRenderer({todo, index}){
     const {showToast} = useContext(ToastContext);
@@ -17,8 +18,13 @@ function TodoRenderer({todo, index}){
      let x = "";
              function onComplete(){
                  toggleComplete(todo.id);
-                 showToast(" ✅ Keep Going !")
+                 showToast(" ✅ Keep Going !");
+                 playSuccess();
                  
+             }
+             function playSuccess(){
+                const audio = new Audio(success);
+                audio.play();
              }
 
              function EditHandler(){
