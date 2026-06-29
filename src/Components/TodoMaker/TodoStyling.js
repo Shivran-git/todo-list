@@ -1,6 +1,6 @@
 function todoStyle(todo){
     if(todo.completed){
-        return "line-through text-cyan-400"
+        return "line-through text-green-400"
     }
 }
 

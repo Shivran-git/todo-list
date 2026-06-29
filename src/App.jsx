@@ -23,6 +23,7 @@ function App() {
         <source src= {spots} type='video/mp4'/>
       </video>
       
+      
            <h1>TODO LIST</h1>
        <TodoAdder/>
        <TodoStates/>
