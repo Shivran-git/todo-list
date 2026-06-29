@@ -15,7 +15,7 @@ import todoStore from "../../Store/todoStore";
           onClick={handleSubmit}
           className="btn"
            >
-               ADD TODO
+               ADD 
      </button>
             
            </div>
